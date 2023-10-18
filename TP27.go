@@ -9,7 +9,7 @@ import (
 func validar(user string, password string) bool {
 	file, err := os.Open("usuarios.csv")
 	if err != nil {
-		fmt.Println("ELPAPUAPU Error al abrir el archivo:", err)
+		fmt.Println("ELPAPUAPU Error al abrir el archivo:sdsdsdsd", err)
 		return false
 	}
 	defer file.Close()
